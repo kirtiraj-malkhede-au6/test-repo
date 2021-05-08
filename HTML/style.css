@@ -198,3 +198,33 @@ div#content p:first-child {
     /* background-image: radial-gradient(circle,red,green,yellow); */
     box-shadow: 3px 2px 9px 2px grey;
 }
+
+
+/* Transition and transformation demo */
+#animbox {
+    height: 100px;
+    width: 100px;
+    border-top-right-radius: 10px;
+    background-color: #3f51b5;
+    margin: 50px;
+    transition-duration: 500ms;
+    transition-property: background-color,width;
+    transition-timing-function: ease-in;
+}
+#animbox:hover {
+    background-color: aquamarine;
+    width: 300px;
+}
+#animbox2 {
+    height: 100px;
+    width: 100px;
+    border-top-right-radius: 10px;
+    background-color:red;
+    margin: 50px;
+    transition: transform 500ms, background-color 3s;
+}
+
+#animbox2:hover {
+    background-color: salmon;
+    transform: translate(20px,20px) rotate(90deg) scale(1.3,1.3);
+}
