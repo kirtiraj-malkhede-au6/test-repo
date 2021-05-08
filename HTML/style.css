@@ -159,3 +159,42 @@ html {
     background-color: rgb(131, 45, 112);
     font-size: 55px;
 }
+#listdemo {
+    /* list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(https://icon-library.com/images/small-arrow-icon/small-arrow-icon-1.jpg); */
+    list-style: circle inside;
+}
+
+
+a:link {
+    color: red;
+}
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: green;
+    font-size: 20px;
+}
+a:active {
+    color:yellow;
+    font-size: 50px;
+}
+div#content p:first-child {
+    color: #ff5722;  
+}
+#shadowtext {
+    display: block; 
+    height: fit-content;
+    width: fit-content;
+    text-shadow: 2px 2px 4px grey;
+     
+}
+#shadowbox {
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(227deg,#3f51b5,#2196f3);
+    /* background-image: radial-gradient(circle,red,green,yellow); */
+    box-shadow: 3px 2px 9px 2px grey;
+}
