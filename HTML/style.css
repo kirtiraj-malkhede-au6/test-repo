@@ -219,12 +219,23 @@ div#content p:first-child {
     height: 100px;
     width: 100px;
     border-top-right-radius: 10px;
+    box-shadow: 2px 3px 8px grey;
     background-color:red;
     margin: 50px;
-    transition: transform 500ms, background-color 3s;
+    transition: transform 500ms, background-color 700ms;
 }
 
 #animbox2:hover {
-    background-color: salmon;
+    background-color: rgb(4, 187, 178);
     transform: translate(20px,20px) rotate(90deg) scale(1.3,1.3);
+}
+#mainheading {
+    padding-block: 26px;
+    text-align: end;
+}
+.bootstrapbutton {
+    margin-bottom: 3px;
+    background-color: gray;
+    box-shadow: 2px 2px 8px 2px rgb(255, 255, 255) ;
+
 }
